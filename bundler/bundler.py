@@ -612,7 +612,7 @@ class Bundler:
         self.copy_plist()
 
         # Note: could move this to xml file...
-        self.copy_path(Path("${prefix}/lib/charset.alias"))
+        # self.copy_path(Path("${prefix}/lib/charset.alias"))
 
         # Main binary
         path = self.project.get_main_binary()
