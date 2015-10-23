@@ -643,7 +643,7 @@ class Bundler:
 
         self.copy_icon_themes()
 
-        self.create_pango_setup()
+        #self.create_pango_setup()
         self.create_gtk_immodules_setup()
         self.create_gdk_pixbuf_loaders_setup()
 
