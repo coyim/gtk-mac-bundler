@@ -302,7 +302,7 @@ class Bundler:
                         dir_util.copy_tree (str(globbed_source), str(dest),
                                             preserve_mode=1,
                                             preserve_times=1,
-                                            preserve_symlinks=1,
+                                            preserve_symlinks=0,
                                             update=1,
                                             verbose=1,
                                             dry_run=0)
